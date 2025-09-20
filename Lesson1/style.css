@@ -48,3 +48,34 @@ img {
     /* Bo góc */
     border-radius: 50px;
 }
+
+/* CSS cho class */
+.a {
+    display: inline;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.b {
+    display: block;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+.c {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+}
+
+/* CSS cho id */
+#check{
+    background-color: lightcoral;
+}
+
+#check2{
+    background-color: lightcoral;
+}
