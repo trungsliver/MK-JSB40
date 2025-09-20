@@ -39,3 +39,12 @@ a{
     /* In đậm */
     font-weight: 600;
 }
+
+img {
+    /* Chiều ngang */
+    width: 300px;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Bo góc */
+    border-radius: 50px;
+}
