@@ -1,0 +1,41 @@
+ul{
+    /* Chỉnh sửa kiểu hiện phần tử */
+    list-style: square;
+    /* Đổi màu chữ */
+    color: rgb(87, 3, 3);
+    /* Độ đậm nhạt của chữ */
+    font-weight: bold;
+    /* Đổi font chữ */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Cỡ chữ */
+    font-size: 20px;
+}
+
+div{
+    /* Đổi màu nền */
+    background-color: rgb(191, 243, 251);
+    /* Cỡ chữ */
+    font-size: 20px;
+}
+
+ol{
+    /* Chỉnh sửa kiểu hiện phần tử */
+    list-style: upper-alpha;
+    /* Đổi màu chữ */
+    color: rgb(14, 3, 87);
+    /* Độ đậm nhạt của chữ */
+    font-weight: bold;
+    /* Chỉnh kiểu chữ */
+    font-style: italic;
+    /* Đổi font chữ */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Cỡ chữ */
+    font-size: 20px;
+}
+
+a{
+    /* Loại bỏ dấu dạch chân */
+    text-decoration: none;
+    /* In đậm */
+    font-weight: 600;
+}
