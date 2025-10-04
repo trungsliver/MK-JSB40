@@ -1,0 +1,52 @@
+div{
+    /* căn lề giữa */
+    text-align: center;
+    /* đổi font chữ */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    /* đổi màu chữ */
+    color: rgb(134, 0, 0);
+}
+
+h2 {
+    /* đồi màu chữ */
+    color: rgb(15, 8, 145);
+}
+
+p{
+    /* Đổi cỡ chữ */
+    font-size: 18px;
+    /* Độ đậm nhạt */
+    font-weight: bold;
+    /* chỉnh kiểu chữ */
+    font-style: italic;
+}
+
+ul{
+    /* Đổi kiểu danh sách */
+    list-style: decimal;
+    /* Căn lề giữa */
+    text-align: left;
+    /* chiều ngang */
+    width: 150px
+}
+
+a{
+    /* đổi màu chữ */
+    color: rgb(0, 0, 0);
+    /* bỏ gạch chân */
+    text-decoration: none;
+    /* in đậm */
+    font-weight: bold;
+}
+
+img{
+    /* Chỉnh kích thước */
+    height: 300px;
+    /* Viền: kích thước - kiểu - màu */
+    border: 10px solid black;
+    /* Bo góc */
+    border-radius: 180px;
+}
