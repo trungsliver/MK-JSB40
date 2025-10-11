@@ -24,3 +24,34 @@ p {
 .d1 p {
     font-size: 20px;
 }
+
+/* Box model */
+.box {
+    width: 150px;
+    height: 150px;
+    /* Viền: kích thước - kiểu - màu */
+    border: 5px solid black;
+    /* Padding: khoảng cách từ content đến viền */
+    padding: 20px;
+    /* Margin: khoảng cách từ viền đến phần tử khác */
+    margin: 20px;
+    /* Bo góc */
+    border-radius: 20px;
+}
+
+#box1{
+    margin-left: 100px;
+    background-color: lightblue;
+    /* Box sizing */
+    box-sizing: border-box;
+}
+
+#box2{
+    background-color: lightcoral;
+    /* Chỉnh viền - border */
+    border-width: 5px;
+    border-style: dotted;
+    border-color: blue;
+    /* Box sizing */
+    box-sizing: content-box;
+}
