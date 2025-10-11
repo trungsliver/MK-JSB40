@@ -14,3 +14,13 @@ p {
 #minhkhai {
     color: red
 }
+
+/* CSS cho phần tử con trực tiếp */
+.d1 > p {
+    background-color: yellow;
+}
+
+/* CSS cho hậu duệ */
+.d1 p {
+    font-size: 20px;
+}
