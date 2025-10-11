@@ -1,0 +1,16 @@
+/* CSS theo thẻ */
+p {
+    /* In đậm */
+    font-weight: bold;
+}
+
+/* CSS theo class */
+.jsb40 {
+    /* màu chữ */
+    color: blue;
+}
+
+/* CSS theo id */
+#minhkhai {
+    color: red
+}
