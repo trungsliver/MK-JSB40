@@ -1,0 +1,72 @@
+.position1 {
+    position: relative;
+    background-color: lightcoral;
+}
+
+.position1 p{
+    margin: 0;
+}
+
+.child {
+    position: relative;
+    background-color: lightblue;
+    /* Chiều ngang vừa với nội dung */
+    width: fit-content;
+    height: 50px;
+    /* Chỉnh vị trí */
+    top: 10px;
+    left: 20px;
+}
+
+.child2 {
+    position: absolute;
+    background-color: lightblue;
+    /* Chiều ngang vừa với nội dung */
+    width: fit-content;
+    height: 50px;
+    /* Chỉnh vị trí */
+    left: 10px;
+    top: 120px;
+}
+
+.child3 {
+    position: fixed;
+    background-color: lightblue;
+    /* Chiều ngang vừa với nội dung */
+    width: fit-content;
+    height: 50px;
+    /* Chỉnh vị trí */
+    right: 10px;
+    bottom: 10px;
+}
+
+img {
+    height: 100px;
+}
+
+.container {
+    background-color: lightsalmon;
+    /* flexbox */
+    display: flex;
+    /* Hướng sắp xếp phần tử */
+    flex-direction: row;
+    /* Hướng sắp xếp theo chiều ngang */
+    justify-content:space-around;
+    /* Sắp xếp theo chiều dọc */
+    align-items: flex-start;
+    /* Xuống dòng khi hết chỗ */
+    flex-wrap: wrap;
+}
+
+#test {
+    background-color: lightseagreen;
+    width:200px;
+    height:100px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #test {
+        background-color: magenta;
+    }
+}
