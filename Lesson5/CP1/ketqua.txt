@@ -1,0 +1,9 @@
+Ten         Trac nghiem     Thuc hanh       Final
+
+Ngoc Huy:       9/10            7/10        => 8
+Duc Minh:       9/10            8/10        => 8.5
+Hoang Nam:      9/10            7/10        => 8
+Minh Ngoc:      9/10            9/10        => 9
+Minh Quan:      9/10            8/10        => 8.5
+Quang Minh:     8/10            9/10        => 8.5
+Tiến Dũng:      9/10            8/10        => 8.5
