@@ -1,0 +1,157 @@
+/* =======================
+   PRODUCTS PAGE
+   ======================= */
+
+   main {
+    margin-top: 80px;
+   }
+
+/* Title */
+.products-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4e342e;
+}
+
+.products-subtitle {
+    color: #7a6c63;
+}
+
+/* Category Title */
+.category-title {
+    font-weight: 600;
+    color: #4e342e;
+}
+
+/* Product Card Style */
+.product-card {
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #e2d8cf;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    height: 100%; /* Đảm bảo bằng nhau */
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.product-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Body */
+.product-body {
+    padding: 18px;
+    flex-grow: 1; /* Giúp các card bằng chiều cao */
+}
+
+.product-body h5 {
+    font-weight: 600;
+    color: #4e342e;
+}
+
+.product-body p {
+    color: #7a6c63;
+}
+
+/* Button */
+.product-btn {
+    background-color: #bf8f63;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.product-btn:hover {
+    background-color: #a3724f;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .products-title {
+        font-size: 1.7rem;
+    }
+
+    .product-img {
+        height: 200px;
+    }
+}
+
+
+
+/* ------- HERO BANNER ------- */
+.hero-section {
+    background: url("https://rgb.vn/wp-content/uploads/2021/03/rgb-creative-decor-noi-that-furniture.jpg") center/cover no-repeat;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(30, 22, 18, 0.55); /* lớp phủ tối sang trọng */
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+}
+
+.hero-btn {
+    background-color: #bf8f63;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.hero-btn:hover {
+    background-color: #a3724f;
+}
+
+/* Responsive HERO */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.2rem;
+    }
+    .hero-section {
+        height: 50vh;
+    }
+}
+
+
+/* ------- SECTION TITLES ------- */
+.home-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #4e342e;
+}
+
+.home-subtitle {
+    color: #7a6c63;
+}
+

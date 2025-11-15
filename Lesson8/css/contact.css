@@ -1,0 +1,57 @@
+/* =======================
+   CONTACT PAGE
+   ======================= */
+
+main{
+    margin-top: 80px;
+}
+
+.contact-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4e342e; /* màu gỗ đậm */
+}
+
+.contact-subtitle {
+    color: #7a6c63;
+}
+
+/* Khung thông tin */
+.contact-info {
+    background: #f7f3ef;
+    border-left: 5px solid #bf8f63;
+}
+
+/* Khung form */
+.contact-form {
+    background: #ffffff;
+    border: 1px solid #e5ded6;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+/* Form label */
+.contact-form .form-label {
+    font-weight: 500;
+    color: #4e342e;
+}
+
+/* Button */
+.contact-btn {
+    background-color: #bf8f63;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.contact-btn:hover {
+    background-color: #a3724f;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-title {
+        font-size: 1.6rem;
+    }
+}
